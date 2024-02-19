@@ -1,10 +1,12 @@
 {
-  "name": "nodejs",
-  "version": "1.0.10",
-  "description": "A YAK ID Resolve",
+  "name": "nodejs-react-app",
+  "version": "1.0.0",
+  "description": "A YAK ID Resolve with React frontend",
   "main": "app.js",
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "build": "react-scripts build"
+  },
   "dependencies": {
     "@glif/filecoin-address": "^2.0.43",
     "@web3yak/web3domain": "^1.0.10",
