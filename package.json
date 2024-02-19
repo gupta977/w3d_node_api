@@ -1,15 +1,18 @@
 {
-  "name": "nodejs-react-app",
+  "name": "web3-domain-api",
   "version": "1.0.0",
-  "description": "A YAK ID Resolve with React frontend",
+  "description": "A Node.js application for interacting with blockchain functionalities using Web3 Domain",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "build": "echo 'No build step required'"
   },
   "dependencies": {
+    "express": "^4.17.2",
+    "ethers": "^5.0.0",
     "@glif/filecoin-address": "^2.0.43",
     "@web3yak/web3domain": "^1.0.10",
     "dotenv": "^16.0.3"
   }
 }
+
